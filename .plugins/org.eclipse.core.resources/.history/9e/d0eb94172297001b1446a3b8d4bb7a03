@@ -1,0 +1,28 @@
+package boardgame;
+
+public class Piece {
+
+	protected Position position;
+	private Board board;
+	
+	public Piece() {}
+	
+	public Piece(Position postion, Board board) {
+		this.position = postion;
+		this.board = board;
+	}
+	
+	public Position getPosition() {
+		return position;
+	}
+	
+	public void setPosition(Position position) {
+		this.position = position;
+	}
+	
+	public Board getBoard() {
+		return board;
+	}
+	
+	public 
+}
